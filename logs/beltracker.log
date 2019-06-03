@@ -1,0 +1,915 @@
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559529385415" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot connect to the database]]></log4j:message>
+<log4j:throwable><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'IX_Order'. Cannot insert duplicate key in object 'dbo.Order'. The duplicate key value is (4307-30529).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:254)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1608)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:578)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:508)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7240)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2869)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:243)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:218)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:493)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrders(DataTransferDAO.java:55)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:26)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:186)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:81)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559529558478" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot connect to the database]]></log4j:message>
+<log4j:throwable><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'IX_Order'. Cannot insert duplicate key in object 'dbo.Order'. The duplicate key value is (4307-30529).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:254)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1608)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:578)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:508)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7240)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2869)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:243)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:218)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:493)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrders(DataTransferDAO.java:55)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:26)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:186)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:81)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559529647400" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot connect to the database]]></log4j:message>
+<log4j:throwable><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'IX_Order'. Cannot insert duplicate key in object 'dbo.Order'. The duplicate key value is (4307-30529).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:254)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1608)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:578)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:508)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7240)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2869)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:243)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:218)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:493)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrders(DataTransferDAO.java:55)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:26)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:186)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:81)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559529847911" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot connect to the database]]></log4j:message>
+<log4j:throwable><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'IX_Order'. Cannot insert duplicate key in object 'dbo.Order'. The duplicate key value is (4307-30529).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:254)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1608)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:578)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:508)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7240)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2869)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:243)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:218)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:493)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrders(DataTransferDAO.java:55)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:26)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:186)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:81)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559530472056" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot connect to the database]]></log4j:message>
+<log4j:throwable><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint 'IX_Order'. Cannot insert duplicate key in object 'dbo.Order'. The duplicate key value is (8399-95778).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:254)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1608)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:578)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:508)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7240)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2869)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:243)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:218)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:493)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrders(DataTransferDAO.java:55)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:26)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:186)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:81)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559534277843" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Failed to execute the query for inserting new data]]></log4j:message>
+<log4j:throwable><![CDATA[java.sql.BatchUpdateException: A MERGE statement must be terminated by a semi-colon (;).
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2065)
+	at beltracker.dal.database.dao.DataTransferDAO.insertEmployees(DataTransferDAO.java:44)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:24)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:186)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:81)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559534355685" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Failed to execute the query for inserting new data]]></log4j:message>
+<log4j:throwable><![CDATA[java.sql.BatchUpdateException: Invalid column name 'Salary'.
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(SQLServerPreparedStatement.java:2065)
+	at beltracker.dal.database.dao.DataTransferDAO.insertEmployees(DataTransferDAO.java:44)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:24)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:186)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:81)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559534420377" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot move the data file to the target folder]]></log4j:message>
+<log4j:throwable><![CDATA[java.nio.file.FileSystemException: data\NewData\MockDataV2.csv -> data\InsertedData\MockDataV2.csv: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:387)
+	at sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:287)
+	at java.nio.file.Files.move(Files.java:1395)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:222)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:81)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559534689474" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot find the new data file]]></log4j:message>
+<log4j:throwable><![CDATA[java.nio.file.FileSystemException: data\NewData\70306.csv: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1126)
+	at beltracker.dal.datafile.dataconverter.XLSXConverter.CSVcleanUp(XLSXConverter.java:113)
+	at beltracker.dal.datafile.dataconverter.XLSXConverter.convertFileData(XLSXConverter.java:35)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:191)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:85)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559534979547" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot connect to the database]]></log4j:message>
+<log4j:throwable><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: The MERGE statement conflicted with the FOREIGN KEY constraint "FK_OrderCustomer_Order". The conflict occurred in database "BELMANDATABASE", table "dbo.Order", column 'Id'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:254)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1608)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:578)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:508)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7240)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2869)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:243)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:218)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:493)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrderCustomer(DataTransferDAO.java:89)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrders(DataTransferDAO.java:69)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:25)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:192)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:85)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.dal.DatabaseDALManager" timestamp="1559536005832" level="ERROR" thread="pool-2-thread-1">
+<log4j:message><![CDATA[Cannot connect to the database]]></log4j:message>
+<log4j:throwable><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: The MERGE statement conflicted with the FOREIGN KEY constraint "FK_OrderCustomer_Order". The conflict occurred in database "BELMANDATABASE", table "dbo.Order", column 'Id'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:254)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1608)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:578)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:508)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7240)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2869)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:243)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:218)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:493)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrderCustomer(DataTransferDAO.java:89)
+	at beltracker.dal.database.dao.DataTransferDAO.insertOrders(DataTransferDAO.java:69)
+	at beltracker.dal.database.dao.DataTransferDAO.transferData(DataTransferDAO.java:25)
+	at beltracker.dal.DatabaseDALManager.update(DatabaseDALManager.java:180)
+	at beltracker.dal.datafile.FolderWatcher.notifyObservers(FolderWatcher.java:63)
+	at beltracker.dal.datafile.FolderWatcher.checkForNewData(FolderWatcher.java:77)
+	at beltracker.dal.datafile.FolderWatcher.lambda$runFileObserving$0(FolderWatcher.java:46)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.MainModel" timestamp="1559548638918" level="ERROR" thread="pool-5-thread-1">
+<log4j:message><![CDATA[Cannot update tasks - failed to retrieve data from the server]]></log4j:message>
+<log4j:throwable><![CDATA[beltracker.bll.exception.BLLException: Cannot retrieve tasks
+	at beltracker.bll.BLLManager.getTasks(BLLManager.java:59)
+	at beltracker.gui.model.concrete.MainModel.updateTasks(MainModel.java:85)
+	at beltracker.gui.model.concrete.MainModel.lambda$runTasksObserving$0(MainModel.java:73)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: beltracker.dal.exception.DALException: Cannot connect to the database
+	at beltracker.dal.DatabaseDALManager.getTasks(DatabaseDALManager.java:101)
+	at beltracker.bll.BLLManager.getTasks(BLLManager.java:47)
+	... 9 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Read timed out
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:2826)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.read(IOBuffer.java:1977)
+	at com.microsoft.sqlserver.jdbc.TDSReader.readPacket(IOBuffer.java:6369)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:7627)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:576)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:508)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7240)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2869)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:243)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:218)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:434)
+	at beltracker.dal.database.dao.TaskDAO.getTasks(TaskDAO.java:36)
+	at beltracker.dal.DatabaseDALManager.getTasks(DatabaseDALManager.java:91)
+	... 10 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.read(IOBuffer.java:1971)
+	... 21 more
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.TaskFullViewController" timestamp="1559548638973" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Failed to submit the task. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.MainModel" timestamp="1559548653604" level="ERROR" thread="pool-5-thread-1">
+<log4j:message><![CDATA[Cannot update tasks - failed to retrieve data from the server]]></log4j:message>
+<log4j:throwable><![CDATA[beltracker.bll.exception.BLLException: Cannot retrieve tasks
+	at beltracker.bll.BLLManager.getTasks(BLLManager.java:59)
+	at beltracker.gui.model.concrete.MainModel.updateTasks(MainModel.java:85)
+	at beltracker.gui.model.concrete.MainModel.lambda$runTasksObserving$0(MainModel.java:73)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: beltracker.dal.exception.DALException: Cannot connect to the database
+	at beltracker.dal.DatabaseDALManager.getTasks(DatabaseDALManager.java:101)
+	at beltracker.bll.BLLManager.getTasks(BLLManager.java:47)
+	... 9 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 10.176.111.31, port 1433 has failed. Error: "No route to host: connect. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:226)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:277)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2379)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:652)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2379)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2042)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1889)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1120)
+	at com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnectionInternal(SQLServerDataSource.java:1056)
+	at com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(SQLServerDataSource.java:85)
+	at beltracker.dal.database.DbConnectionProvider.createConnection(DbConnectionProvider.java:86)
+	at beltracker.dal.database.DbConnectionProvider.getConnection(DbConnectionProvider.java:73)
+	at beltracker.dal.DatabaseDALManager.getTasks(DatabaseDALManager.java:90)
+	... 10 more
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.TaskFullViewController" timestamp="1559548668273" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Failed to submit the task. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.MainModel" timestamp="1559548682880" level="ERROR" thread="pool-5-thread-1">
+<log4j:message><![CDATA[Cannot update tasks - failed to retrieve data from the server]]></log4j:message>
+<log4j:throwable><![CDATA[beltracker.bll.exception.BLLException: Cannot retrieve tasks
+	at beltracker.bll.BLLManager.getTasks(BLLManager.java:59)
+	at beltracker.gui.model.concrete.MainModel.updateTasks(MainModel.java:85)
+	at beltracker.gui.model.concrete.MainModel.lambda$runTasksObserving$0(MainModel.java:73)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: beltracker.dal.exception.DALException: Cannot connect to the database
+	at beltracker.dal.DatabaseDALManager.getTasks(DatabaseDALManager.java:101)
+	at beltracker.bll.BLLManager.getTasks(BLLManager.java:47)
+	... 9 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 10.176.111.31, port 1433 has failed. Error: "No route to host: connect. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:226)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:277)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2379)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:652)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2379)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2042)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1889)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1120)
+	at com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnectionInternal(SQLServerDataSource.java:1056)
+	at com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(SQLServerDataSource.java:85)
+	at beltracker.dal.database.DbConnectionProvider.createConnection(DbConnectionProvider.java:86)
+	at beltracker.dal.database.DbConnectionProvider.getConnection(DbConnectionProvider.java:73)
+	at beltracker.dal.DatabaseDALManager.getTasks(DatabaseDALManager.java:90)
+	... 10 more
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.MainModel" timestamp="1559548697462" level="ERROR" thread="pool-5-thread-1">
+<log4j:message><![CDATA[Cannot update tasks - failed to retrieve data from the server]]></log4j:message>
+<log4j:throwable><![CDATA[beltracker.bll.exception.BLLException: Cannot retrieve tasks
+	at beltracker.bll.BLLManager.getTasks(BLLManager.java:59)
+	at beltracker.gui.model.concrete.MainModel.updateTasks(MainModel.java:85)
+	at beltracker.gui.model.concrete.MainModel.lambda$runTasksObserving$0(MainModel.java:73)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: beltracker.dal.exception.DALException: Cannot connect to the database
+	at beltracker.dal.DatabaseDALManager.getTasks(DatabaseDALManager.java:101)
+	at beltracker.bll.BLLManager.getTasks(BLLManager.java:47)
+	... 9 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 10.176.111.31, port 1433 has failed. Error: "No route to host: connect. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:226)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:277)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2379)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:652)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2379)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2042)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1889)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1120)
+	at com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnectionInternal(SQLServerDataSource.java:1056)
+	at com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(SQLServerDataSource.java:85)
+	at beltracker.dal.database.DbConnectionProvider.createConnection(DbConnectionProvider.java:86)
+	at beltracker.dal.database.DbConnectionProvider.getConnection(DbConnectionProvider.java:73)
+	at beltracker.dal.DatabaseDALManager.getTasks(DatabaseDALManager.java:90)
+	... 10 more
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559548730358" level="ERROR" thread="pool-3-thread-1">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559548858460" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:94)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559548873202" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559548894937" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:94)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559548955144" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:94)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559548969893" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559549072168" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:94)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559549086904" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559549124369" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:94)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559549139132" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559549219146" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:94)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559549233851" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559549282908" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:95)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559549297661" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559549447987" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:95)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559549462707" level="ERROR" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559549486925" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:95)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559549511453" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:95)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559549538856" level="ERROR" thread="pool-4-thread-1">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.model.concrete.DepartmentModel" timestamp="1559549650385" level="WARN" thread="JavaFX Application Thread">
+<log4j:message><![CDATA[Cannot read department informations]]></log4j:message>
+<log4j:throwable><![CDATA[java.io.FileNotFoundException: src\resources\properties\DepartmentProperties.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at beltracker.gui.model.concrete.DepartmentModel.loadDepartment(DepartmentModel.java:68)
+	at beltracker.gui.controller.DepartmentConfigurationViewController.loadDepartmentInformations(DepartmentConfigurationViewController.java:95)
+	at beltracker.gui.BelTracker.lambda$start$0(BelTracker.java:64)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.stage.Window.fireEvent(Window.java:1138)
+	at javafx.stage.Window$9.invalidated(Window.java:888)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:109)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:144)
+	at javafx.stage.Window.setShowing(Window.java:940)
+	at javafx.stage.Window.show(Window.java:955)
+	at javafx.stage.Stage.show(Stage.java:259)
+	at beltracker.gui.BelTracker.start(BelTracker.java:70)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+]]></log4j:throwable>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559549679592" level="ERROR" thread="pool-4-thread-1">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="beltracker.gui.controller.LoadingViewController" timestamp="1559549715968" level="ERROR" thread="pool-3-thread-1">
+<log4j:message><![CDATA[beltracker.gui.exception.ModelException: Cannot retrieve data from the server. Please check your internet connection.]]></log4j:message>
+</log4j:event>
+

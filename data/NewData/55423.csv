@@ -1,0 +1,104 @@
+AvailableWorkers_____type,AvailableWorkers__Initials,AvailableWorkers__Name,AvailableWorkers__SalaryNumber,ProductionOrders_____type,ProductionOrders__Customer_____type,ProductionOrders__Customer__Name,ProductionOrders__Delivery_____type,ProductionOrders__Delivery__DeliveryTime,ProductionOrders__DepartmentTasks_____type,ProductionOrders__DepartmentTasks__Department_____type,ProductionOrders__DepartmentTasks__Department__Name,ProductionOrders__DepartmentTasks__EndDate,ProductionOrders__DepartmentTasks__FinishedOrder,ProductionOrders__DepartmentTasks__StartDate,ProductionOrders__Order_____type,ProductionOrders__Order__OrderNumber
+Worker:#ProductionMonitor,KN,Kaj Nielsen,1500.0,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Jysk,Delivery:#ProductionMonitor,26-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,26-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,8399-95778
+Worker:#ProductionMonitor,SS,Søren Skov,1501.0,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Maersk,Delivery:#ProductionMonitor,20-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,20-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,6118-58952
+Worker:#ProductionMonitor,SN,Susanne Nielsen,1502.0,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Q8,Delivery:#ProductionMonitor,08-Jun-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,04-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,4307-30526
+Worker:#ProductionMonitor,KS,Karsten Sørensen,1503.0,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,12-May-2019,FALSE,04-May-2019,,
+Worker:#ProductionMonitor,RS,Rasmus Svanbord,1504.0,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,21-May-2019,FALSE,12-May-2019,,
+Worker:#ProductionMonitor,AS,Anders Svanbord,1505.0,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,30-May-2019,FALSE,21-May-2019,,
+Worker:#ProductionMonitor,RS,Rud Stavnager,1506.0,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,08-Jun-2019,FALSE,30-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,BlueWater,Delivery:#ProductionMonitor,21-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,29-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,9741-32564
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,04-May-2019,FALSE,29-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,08-May-2019,FALSE,04-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,12-May-2019,FALSE,08-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,17-May-2019,FALSE,12-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,21-May-2019,FALSE,17-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Statoil,Delivery:#ProductionMonitor,14-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,28-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,3513-29294
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,01-May-2019,FALSE,28-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,04-May-2019,FALSE,01-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,08-May-2019,FALSE,04-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,11-May-2019,FALSE,08-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,14-May-2019,FALSE,11-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Coop,Delivery:#ProductionMonitor,12-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,28-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,2922-15061
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,30-Apr-2019,FALSE,28-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,03-May-2019,FALSE,30-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,06-May-2019,FALSE,03-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,09-May-2019,FALSE,06-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,12-May-2019,FALSE,09-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Jysk,Delivery:#ProductionMonitor,30-Apr-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,26-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,3586-93250
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,27-Apr-2019,FALSE,26-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,28-Apr-2019,FALSE,27-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,29-Apr-2019,FALSE,28-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,30-Apr-2019,FALSE,29-Apr-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Maersk,Delivery:#ProductionMonitor,06-Jun-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,06-Jun-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,9301-59219
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Q8,Delivery:#ProductionMonitor,22-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,02-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,1273-35334
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,08-May-2019,FALSE,02-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,15-May-2019,FALSE,08-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,22-May-2019,FALSE,15-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,BlueWater,Delivery:#ProductionMonitor,11-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,30-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,1145-79218
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,06-May-2019,FALSE,30-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,11-May-2019,FALSE,06-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Statoil,Delivery:#ProductionMonitor,21-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,29-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,7936-11674
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,02-May-2019,FALSE,29-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,06-May-2019,FALSE,02-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,10-May-2019,FALSE,06-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,13-May-2019,FALSE,10-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,17-May-2019,FALSE,13-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Forsendelse,21-May-2019,FALSE,17-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Coop,Delivery:#ProductionMonitor,04-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,26-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,5703-79787
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,27-Apr-2019,FALSE,26-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,29-Apr-2019,FALSE,27-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,30-Apr-2019,FALSE,29-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,01-May-2019,FALSE,30-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,02-May-2019,FALSE,01-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Forsendelse,04-May-2019,FALSE,02-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Jysk,Delivery:#ProductionMonitor,08-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,27-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,2485-13022
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,29-Apr-2019,FALSE,27-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,30-Apr-2019,FALSE,29-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,02-May-2019,FALSE,30-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,04-May-2019,FALSE,02-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,06-May-2019,FALSE,04-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Forsendelse,08-May-2019,FALSE,06-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Maersk,Delivery:#ProductionMonitor,24-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,30-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,7116-90589
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,04-May-2019,FALSE,30-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,09-May-2019,FALSE,04-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,14-May-2019,FALSE,09-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,19-May-2019,FALSE,14-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,24-May-2019,FALSE,19-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Q8,Delivery:#ProductionMonitor,16-Jun-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,05-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,7412-64533
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,16-May-2019,FALSE,05-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,26-May-2019,FALSE,16-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,05-Jun-2019,FALSE,26-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,16-Jun-2019,FALSE,05-Jun-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,BlueWater,Delivery:#ProductionMonitor,01-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,26-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,5187-74656
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,27-Apr-2019,FALSE,26-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,28-Apr-2019,FALSE,27-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,29-Apr-2019,FALSE,28-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,30-Apr-2019,FALSE,29-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,01-May-2019,FALSE,30-Apr-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Statoil,Delivery:#ProductionMonitor,08-Jun-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,04-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,6671-65644
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,12-May-2019,FALSE,04-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,21-May-2019,FALSE,12-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,30-May-2019,FALSE,21-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,08-Jun-2019,FALSE,30-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Coop,Delivery:#ProductionMonitor,20-Jun-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,09-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,8816-95055
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,23-May-2019,FALSE,09-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,06-Jun-2019,FALSE,23-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,20-Jun-2019,FALSE,06-Jun-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Jysk,Delivery:#ProductionMonitor,04-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,29-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,9852-92151
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,04-May-2019,FALSE,29-Apr-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Maersk,Delivery:#ProductionMonitor,17-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,30-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,7191-36379
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,06-May-2019,FALSE,30-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,11-May-2019,FALSE,06-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,17-May-2019,FALSE,11-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Q8,Delivery:#ProductionMonitor,28-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,30-Apr-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,8201-20763
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,06-May-2019,FALSE,30-Apr-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,11-May-2019,FALSE,06-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 2,17-May-2019,FALSE,11-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bertel,22-May-2019,FALSE,17-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Maler,28-May-2019,FALSE,22-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,BlueWater,Delivery:#ProductionMonitor,18-May-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,06-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,4268-70616
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,18-May-2019,FALSE,06-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Statoil,Delivery:#ProductionMonitor,14-Jun-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,12-May-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,8829-65464
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Bælg,28-May-2019,FALSE,12-May-2019,,
+,,,,,,,,,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Montage 1,14-Jun-2019,FALSE,28-May-2019,,
+,,,,ProductionOrder:#ProductionMonitor,Customer:#ProductionMonitor,Coop,Delivery:#ProductionMonitor,27-Jun-2019,DepartmentTask:#ProductionMonitor,Department:#ProductionMonitor,Halvfab,27-Jun-2019,FALSE,25-Apr-2019,Order:#ProductionMonitor,1247-62832
